@@ -1,0 +1,11 @@
+# .github/metadata.yaml
+description: "Swift implementation of the WHATWG Encoding Standard: encoding labels and decoders for UTF-8, UTF-16 and the legacy single-byte encodings."
+topics:
+  - standards
+  - whatwg
+  - encoding
+  - charset
+  - utf-8
+homepage: "https://swift-institute.org"
+readme:
+  family: E

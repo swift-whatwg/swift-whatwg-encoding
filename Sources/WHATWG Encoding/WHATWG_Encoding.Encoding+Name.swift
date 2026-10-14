@@ -1,0 +1,40 @@
+extension WHATWG_Encoding.Encoding {
+
+    public var name: String {
+        switch self {
+        case .utf8: "UTF-8"
+        case .ibm866: "IBM866"
+        case .iso8859_2: "ISO-8859-2"
+        case .iso8859_3: "ISO-8859-3"
+        case .iso8859_4: "ISO-8859-4"
+        case .iso8859_5: "ISO-8859-5"
+        case .iso8859_6: "ISO-8859-6"
+        case .iso8859_7: "ISO-8859-7"
+        case .iso8859_8: "ISO-8859-8"
+        case .iso8859_8_i: "ISO-8859-8-I"
+        case .iso8859_10: "ISO-8859-10"
+        case .iso8859_13: "ISO-8859-13"
+        case .iso8859_14: "ISO-8859-14"
+        case .iso8859_15: "ISO-8859-15"
+        case .iso8859_16: "ISO-8859-16"
+        case .koi8_r: "KOI8-R"
+        case .koi8_u: "KOI8-U"
+        case .macintosh: "macintosh"
+        case .windows874: "windows-874"
+        case .windows1250: "windows-1250"
+        case .windows1251: "windows-1251"
+        case .windows1252: "windows-1252"
+        case .windows1253: "windows-1253"
+        case .windows1254: "windows-1254"
+        case .windows1255: "windows-1255"
+        case .windows1256: "windows-1256"
+        case .windows1257: "windows-1257"
+        case .windows1258: "windows-1258"
+        case .xMacCyrillic: "x-mac-cyrillic"
+        case .replacement: "replacement"
+        case .utf16be: "UTF-16BE"
+        case .utf16le: "UTF-16LE"
+        case .xUserDefined: "x-user-defined"
+        }
+    }
+}
